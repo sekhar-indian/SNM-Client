@@ -1,0 +1,17 @@
+.nav-barcontainer{
+ display: flex;
+ 
+}
+.nav-bar-logo{
+    height:60px;
+    width: 60px;
+}
+.nav-bar-item{
+    color:white;
+    margin-left: 2%;
+    font-family: roboto;
+    font-size: large;
+    font-weight: 400;
+    margin-top: 15px;
+    text-decoration:none;
+}

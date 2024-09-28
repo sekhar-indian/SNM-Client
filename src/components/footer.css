@@ -1,0 +1,21 @@
+.footer-container{
+   /* background-color: #00606E; */
+   background-color: #04282e;
+}
+.footer-item-container{
+    color:white;
+    display:flex;
+    margin-left: 70px;
+
+}
+.footer-item{
+    margin: 40px;
+   
+}
+.footer-item-details{
+    font-size: small;
+    font-family: roboto;
+}
+.footer-title{
+    font-family: roboto;
+}
