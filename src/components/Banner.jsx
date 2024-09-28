@@ -10,15 +10,15 @@
 // }
 // export default Banner;
 
-
+import './banner.css'
 import { Carousel } from 'react-bootstrap';
 
 function MyCarousel() {
   return (
-    <Carousel>
+    <Carousel className="banner-container">
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className=" banner-img d-block w-100"
           src="https://res.cloudinary.com/muni/image/upload/v1725355338/SNM/123-456-7890_3_h38nfb.png" // Replace with your image source
           alt="" // Replace with your alt text
         />
@@ -29,7 +29,7 @@ function MyCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="banner-img d-block w-100"
           src="https://res.cloudinary.com/muni/image/upload/v1725543417/SNM/123-456-7890_4_bzbsw9.png" // Replace with your image source
           alt="" // Replace with your alt text
         />
@@ -40,7 +40,7 @@ function MyCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="banner-img d-block w-100"
           src="https://res.cloudinary.com/muni/image/upload/v1725543848/SNM/123-456-7890_5_wceoqm.png" // Replace with your image source
           alt="..." // Replace with your alt text
         />

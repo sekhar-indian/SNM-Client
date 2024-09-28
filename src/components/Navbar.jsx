@@ -1,11 +1,11 @@
 import './navbar.css';
-import {Container,Col,Row} from 'react-bootstrap';
+
 import {Link} from 'react-router-dom'
 function Navbar(){
     let jwt=localStorage.getItem('jwt');
     let loginLink
     if(!jwt){
-        loginLink=<> <Link to='/login' className="nav-bar-item">Login</Link><Link to='/sinup' className="nav-bar-item">SinUp</Link></>
+        loginLink=<> <Link to='/login' className="nav-bar-item">Login</Link><Link to='/signup' className="nav-bar-item">SinUp</Link></>
     }
     return(
        <>

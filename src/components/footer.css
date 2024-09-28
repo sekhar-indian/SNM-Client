@@ -3,19 +3,24 @@
    background-color: #04282e;
 }
 .footer-item-container{
-    color:white;
+    color:rgb(227, 222, 222);
     display:flex;
-    margin-left: 70px;
+    margin-left: 100px;
 
 }
 .footer-item{
-    margin: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
    
 }
 .footer-item-details{
     font-size: small;
-    font-family: roboto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #696868;
 }
 .footer-title{
     font-family: roboto;
+    font-size: medium;
+    
 }

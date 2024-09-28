@@ -1,0 +1,42 @@
+.topdeals-title{
+    padding-left: 40px;
+    color: rgb(255, 255, 255);
+    font-family: roboto;
+}
+.topdeals-container{
+    display: flex;
+    background-color: rgb(144, 159, 168);
+    border-radius: 15px;
+    height: 220px;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+.topdeals-items-container{
+    display: flex;
+}
+
+.topdeals-item{
+   margin-left: 7%;
+   margin-top: 3%;
+   padding: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 10px;
+   border: solid #00606E;
+   background-color: white;
+   border-radius: 15px;
+}
+.topdeals-img-container{
+   
+}
+.topdeals-item-img{
+    height: 20vh;
+    width: 10vw;
+}
+.topdeals-icon{
+    margin-top: 6%;
+    margin-left: 1%;
+}
+.topdeals-icon2{
+    margin-left: 24%;
+    margin-top: 6%;
+}

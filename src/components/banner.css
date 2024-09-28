@@ -1,5 +1,9 @@
 .banner-img{
-    height:10%;
-    width:100%;
-    
+    height: 220px;
+   
+    overflow: hidden;
+   
+}
+.banner-container{
+    background-color: white;
 }

@@ -1,5 +1,7 @@
 body{
   background-color:#00606E;
-
+  /* background-color: #ff66c4; */
+  height: 100vh;
+  overflow-x: hidden;
 }
 
