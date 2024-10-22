@@ -9,10 +9,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './components/login/login.jsx';
 import Signup from './components/signup/signup.jsx';
 import Topdeals from './components/topdeals/topdeals.jsx';
-import LowestDeals from './components/lowest-deals/lowest-deals.jsx'
+import LowestDeals from './components/lowest-deals/lowest-deals.jsx';
+import './app.css';
+
 function App() {
   return (
-    <div>
+    <div className='app-container'>
      <BrowserRouter>
       <Routes>
         <Route path='/' element={<> <Navbar/><Banner/> <Catagiri/><Topdeals/> <LowestDeals/><Footer/></>}></Route>
@@ -20,7 +22,7 @@ function App() {
         <Route path='/login' element={<><Login/></>}></Route>
         <Route path='/signup' element={<><Signup/></>}></Route>
       </Routes>
-      {/* <Post name="sekhar" /> */}
+      
       
      </BrowserRouter>
     </div>

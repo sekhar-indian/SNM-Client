@@ -8,7 +8,7 @@ function Navbar(){
         loginLink=<> <Link to='/login' className="nav-bar-item">Login</Link><Link to='/signup' className="nav-bar-item">SinUp</Link></>
     }
     return(
-       <>
+      
        <div className="nav-barcontainer">
         <img className="nav-bar-logo" src="https://res.cloudinary.com/muni/image/upload/fl_preserve_transparency/v1725352870/SNM/Circle_Monogram_Logo_2_msqjiq.jpg?_s=public-apps"></img>
         <Link to='/home' className="nav-bar-item">Home</Link>
@@ -21,7 +21,7 @@ function Navbar(){
         <Link to='/orders' className="nav-bar-item">Orders</Link>
         {loginLink}
        </div>
-       </>
+       
     )
 }
 
